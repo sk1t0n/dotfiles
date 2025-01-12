@@ -1,0 +1,17 @@
+# https://github.com/alacritty/alacritty/tree/master#configuration
+
+[window]
+
+padding.x = 20
+padding.y = 20
+
+opacity = 0.92
+blur = true
+
+decorations = "Full"
+decorations_theme_variant = "Dark" # "Light"
+
+[font]
+
+size = 15.0
+normal.family = "JetBrainsMono Nerd Font"
