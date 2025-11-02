@@ -22,6 +22,7 @@ alias chelp=tldr
 # Exa
 alias ls=exa
 alias ls2=/usr/bin/ls
+alias la="ls -la"
 ## Broot
 alias tree2=broot
 # Bat
