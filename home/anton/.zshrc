@@ -105,5 +105,10 @@ For example: open translate 'hello world'"
 
 # Go
 PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
+gen_proto_go() {
+  protoc --go_out=. --go_opt=paths=source_relative \
+         --go-grpc_out=. --go-grpc_opt=paths=source_relative \
+         $1
+}
 
 export PATH=$PATH:$HOME/.local/bin
