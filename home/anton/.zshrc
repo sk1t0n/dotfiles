@@ -111,4 +111,10 @@ gen_proto_go() {
          $1
 }
 
+# Rust
+alias cn="cargo new"
+alias cr="cargo run"
+alias ct="cargo test"
+alias cbr="cargo build --release"
+
 export PATH=$PATH:$HOME/.local/bin
