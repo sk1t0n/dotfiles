@@ -113,6 +113,7 @@ gen_proto_go() {
 
 # Rust
 alias cn="cargo new"
+alias ca="cargo add"
 alias cr="cargo run"
 alias ct="cargo test"
 alias cbr="cargo build --release"
