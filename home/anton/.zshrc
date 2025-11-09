@@ -105,6 +105,18 @@ For example: open translate 'hello world'"
 
 # Go
 PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
+alias gmi="go mod init"
+alias gmt="go mod tidy"
+alias gmd="go mod download"
+alias gg="go get -u"
+alias gi="go install"
+alias gr="go run"
+alias gb="go build"
+alias gt="go test"
+alias gtc="go tool cover"
+alias gtp="go tool pprof"
+alias gtt="go tool trace"
+alias gd="go doc"
 gen_proto_go() {
   protoc --go_out=. --go_opt=paths=source_relative \
          --go-grpc_out=. --go-grpc_opt=paths=source_relative \
