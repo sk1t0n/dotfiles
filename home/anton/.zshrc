@@ -129,5 +129,7 @@ alias ca="cargo add"
 alias cr="cargo run"
 alias ct="cargo test"
 alias cbr="cargo build --release"
+alias rd="rustup doc" # for remove dir: rm -rf
+alias rdb="rustup doc --book"
 
 export PATH=$PATH:$HOME/.local/bin
