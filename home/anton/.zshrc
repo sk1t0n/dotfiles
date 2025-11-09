@@ -41,10 +41,12 @@ alias ps2=/usr/bin/ps
 # Bottom
 alias top=btm
 alias top2=/usr/bin/top
-## Pastel
+# Pastel
 alias color=pastel
-## Hyperfine
-alias bench=hyperfine
+# wrk
+bench () {
+  wrk -t2 -c50 -d20s "http://localhost:$1"
+}
 
 # Open link in default browser
 open() {
