@@ -11,7 +11,8 @@ PATH=$PATH:/opt/nvim/bin
 # Git
 alias gl="git log --oneline"
 alias gs="git status"
-alias ga="git add ."
+alias ga="git add"
+alias gA="git add ."
 alias gc="git commit -m $1"
 alias gca="git commit --amend"
 alias gp="git push -u origin master"
