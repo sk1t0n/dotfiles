@@ -135,4 +135,7 @@ alias cbr="cargo build --release"
 alias rd="rustup doc" # for remove dir: rm -rf
 alias rdb="rustup doc --book"
 
+#Zig
+export PATH=$PATH:$HOME/zig
+
 export PATH=$PATH:$HOME/.local/bin
