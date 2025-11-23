@@ -130,6 +130,7 @@ gen_proto_go() {
 alias cn="cargo new"
 alias ca="cargo add"
 alias cr="cargo run"
+alias cf="cargo fix"
 alias ct="cargo test"
 alias cbr="cargo build --release"
 alias rd="rustup doc" # for remove dir: rm -rf
