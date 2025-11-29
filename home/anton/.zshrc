@@ -15,6 +15,7 @@ alias ga="git add"
 alias gA="git add ."
 alias gc="git commit -m $1"
 alias gca="git commit --amend"
+alias gch="git checkout"
 alias gp="git push -u origin master"
 # Minikube
 alias kubectl="minikube kubectl --"
