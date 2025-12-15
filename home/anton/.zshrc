@@ -170,6 +170,7 @@ alias ct="cargo test"
 alias cbr="cargo build --release"
 alias rd="rustup doc" # for remove dir: rm -rf
 alias rdb="rustup doc --book"
+alias cdo="cargo doc --open"
 
 #Zig
 export PATH=$PATH:$HOME/zig
