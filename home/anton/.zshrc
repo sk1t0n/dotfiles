@@ -169,6 +169,7 @@ alias cf="cargo fix"
 alias ct="cargo test"
 alias cts="cargo test -- --show-output"
 alias cti="cargo test -- --ignored"
+alias ctI="cargo test -- --include-ignored"
 alias cbr="cargo build --release"
 alias rd="rustup doc" # for remove dir: rm -rf
 alias rdb="rustup doc --book"
