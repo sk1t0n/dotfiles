@@ -165,6 +165,7 @@ gen_proto_go() {
 alias cn="cargo new"
 alias ca="cargo add"
 alias cr="cargo run"
+alias cC="cargo check"
 alias cf="cargo fix"
 alias ct="cargo test"
 alias cts="cargo test -- --show-output"
