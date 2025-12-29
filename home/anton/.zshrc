@@ -7,6 +7,7 @@ source $ZSH/oh-my-zsh.sh
 # Neovim
 export EDITOR=nvim
 PATH=$PATH:/opt/nvim/bin
+alias n="nvim ."
 
 # Git
 alias gcd="git clone --depth=1 $1"
