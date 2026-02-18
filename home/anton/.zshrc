@@ -151,7 +151,6 @@ alias gmi="go mod init"
 alias gmt="go mod tidy"
 alias gmd="go mod download"
 alias gg="go get -u"
-alias gi="go install"
 alias gr="go run"
 alias gb="go build"
 alias gt="go test"
@@ -168,7 +167,7 @@ gen_proto_go() {
 # Rust
 alias cn="cargo new"
 alias ca="cargo add"
-alias cr="cargo run"
+alias cR="cargo run"
 alias cC="cargo check"
 alias cf="cargo fix"
 alias ct="cargo test"
@@ -181,7 +180,7 @@ alias rd="rustup doc" # for remove dir: rm -rf
 alias rdb="rustup doc --book"
 alias cdo="cargo doc --open"
 
-#Zig
+# Zig
 export PATH=$PATH:$HOME/zig
 
 export PATH=$PATH:$HOME/.local/bin
