@@ -142,6 +142,9 @@ For example: open translate 'hello world'"
   xdg-open "$url"
 }
 
+# PHP
+alias cr="composer require"
+
 # Go
 PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 alias gmi="go mod init"
