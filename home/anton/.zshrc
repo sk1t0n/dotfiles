@@ -144,6 +144,7 @@ For example: open translate 'hello world'"
 
 # PHP
 alias cr="composer require"
+alias pa="php artisan"
 
 # Go
 PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
