@@ -27,6 +27,7 @@ alias gfrp="git flow release publish $1"
 alias gfrf="git flow release finish $1"
 alias gfhs="git flow hotfix start $1 $2"
 alias gfhf="git flow hotfix finish $1"
+alias gd="git diff"
 alias gs="git status"
 alias gS="git show $1"
 alias ga="git add $@"
@@ -158,7 +159,7 @@ alias gt="go test"
 alias gtc="go tool cover"
 alias gtp="go tool pprof"
 alias gtt="go tool trace"
-alias gd="go doc"
+alias gD="go doc"
 gen_proto_go() {
   protoc --go_out=. --go_opt=paths=source_relative \
          --go-grpc_out=. --go-grpc_opt=paths=source_relative \
@@ -180,6 +181,7 @@ alias cbr="cargo build --release"
 alias rd="rustup doc" # for remove dir: rm -rf
 alias rdb="rustup doc --book"
 alias cdo="cargo doc --open"
+alias cl="cargo loco"
 
 # Zig
 export PATH=$PATH:$HOME/zig
